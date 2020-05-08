@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+<link rel="stylesheet" href="../static/css/style.css">
+<title>It's Pizza Time</title>
+</head>
+<body>
+  <!-- Navbar Section -->
+  <nav class="navbar navbar-expand-sm navbar-dark mb-3">
+    <div class="container">
+      <span class="navbar-brand"><img src="../static/images/pizzabadge.jpg" alt=""></span>
+      <a href="#" class="navbar-brand">Pizza Time</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home -->
+  <header id="home-section">
+    <div class="dark-overlay">
+      <div class="home-inner container">
+        <div class="row">
+          <div class="col d-none d-lg-block">
+            <div class="card bg-primary text-center card-form">
+              <div class="card-body">
+                <h3>Register for Pizza Club</h3>
+                <p>Please fill out this form to register for free rewards.</p>
+                <form action="/register">
+                  <div class="form-row">
+                    <div class="col-sm-6 form-group">
+                      <input type="text" class="form-control form-inline" placeholder="First Name" name="first_name">
+                    </div>
+                    <div class="col form-group">
+                      <input type="text" class="form-control form-inline" placeholder="Last Name" name="last_name">
+                    </div>                             
+                  </div>
+
+                  <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Email" name="email" >
+                  </div>
+                  
+                  <div class="form-row">
+                    <div class="col-7">
+                      <input type="text" class="form-control" placeholder="City">
+                    </div>
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="State">
+                    </div>
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="Zip">
+                    </div>
+                  </div>
+                  <input type="submit" value="Submit" class="btn btn-outline-light">
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    
+  </header>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
